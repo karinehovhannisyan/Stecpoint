@@ -7,11 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stecpoint Sending Service.A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stecpoint Sending Service.Application", "Application\Stecpoint Sending Service.Application.csproj", "{392364C6-C44A-482C-8F30-0642E75DE7EC}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{03A38346-D3F1-411D-987D-DF5D9725360D}"
-	ProjectSection(SolutionItems) = preProject
-		Dockerfile.txt = Dockerfile.txt
-	EndProjectSection
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stecpoint_Sending_Service.Application.Messaging", "Stecpoint Sending Service.Application.Messaging\Stecpoint_Sending_Service.Application.Messaging.csproj", "{A63DA9A8-823D-4E2A-9130-2629FCA9B7FE}"
 EndProject
 Global
