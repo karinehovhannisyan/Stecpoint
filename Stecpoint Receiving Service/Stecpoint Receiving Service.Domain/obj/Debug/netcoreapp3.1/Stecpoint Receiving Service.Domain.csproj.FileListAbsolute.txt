@@ -1,0 +1,13 @@
+C:\Projects\Stecpoint\Stecpoint Receiving Service\Stecpoint Receiving Service.Domain\bin\Debug\netcoreapp3.1\Stecpoint Receiving Service.Domain.deps.json
+C:\Projects\Stecpoint\Stecpoint Receiving Service\Stecpoint Receiving Service.Domain\bin\Debug\netcoreapp3.1\Stecpoint Receiving Service.Domain.dll
+C:\Projects\Stecpoint\Stecpoint Receiving Service\Stecpoint Receiving Service.Domain\bin\Debug\netcoreapp3.1\Stecpoint Receiving Service.Domain.pdb
+C:\Projects\Stecpoint\Stecpoint Receiving Service\Stecpoint Receiving Service.Domain\bin\Debug\netcoreapp3.1\Stecpoint Receiving Service.Common.dll
+C:\Projects\Stecpoint\Stecpoint Receiving Service\Stecpoint Receiving Service.Domain\bin\Debug\netcoreapp3.1\Stecpoint Receiving Service.Common.pdb
+C:\Projects\Stecpoint\Stecpoint Receiving Service\Stecpoint Receiving Service.Domain\obj\Debug\netcoreapp3.1\Stecpoint Receiving Service.Domain.csproj.AssemblyReference.cache
+C:\Projects\Stecpoint\Stecpoint Receiving Service\Stecpoint Receiving Service.Domain\obj\Debug\netcoreapp3.1\Stecpoint Receiving Service.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Stecpoint\Stecpoint Receiving Service\Stecpoint Receiving Service.Domain\obj\Debug\netcoreapp3.1\Stecpoint Receiving Service.Domain.AssemblyInfoInputs.cache
+C:\Projects\Stecpoint\Stecpoint Receiving Service\Stecpoint Receiving Service.Domain\obj\Debug\netcoreapp3.1\Stecpoint Receiving Service.Domain.AssemblyInfo.cs
+C:\Projects\Stecpoint\Stecpoint Receiving Service\Stecpoint Receiving Service.Domain\obj\Debug\netcoreapp3.1\Stecpoint Receiving Service.Domain.csproj.CoreCompileInputs.cache
+C:\Projects\Stecpoint\Stecpoint Receiving Service\Stecpoint Receiving Service.Domain\obj\Debug\netcoreapp3.1\Stecpoint Receiving Service.Domain.csproj.CopyComplete
+C:\Projects\Stecpoint\Stecpoint Receiving Service\Stecpoint Receiving Service.Domain\obj\Debug\netcoreapp3.1\Stecpoint Receiving Service.Domain.dll
+C:\Projects\Stecpoint\Stecpoint Receiving Service\Stecpoint Receiving Service.Domain\obj\Debug\netcoreapp3.1\Stecpoint Receiving Service.Domain.pdb

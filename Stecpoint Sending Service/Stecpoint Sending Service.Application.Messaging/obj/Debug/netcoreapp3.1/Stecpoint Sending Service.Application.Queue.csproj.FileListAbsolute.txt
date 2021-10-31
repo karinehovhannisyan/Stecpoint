@@ -1,0 +1,10 @@
+C:\Projects\Stecpoint\Stecpoint Sending Service\Stecpoint Sending Service.Application.Queue\bin\Debug\netcoreapp3.1\Stecpoint Sending Service.Application.Queue.deps.json
+C:\Projects\Stecpoint\Stecpoint Sending Service\Stecpoint Sending Service.Application.Queue\bin\Debug\netcoreapp3.1\Stecpoint Sending Service.Application.Queue.dll
+C:\Projects\Stecpoint\Stecpoint Sending Service\Stecpoint Sending Service.Application.Queue\bin\Debug\netcoreapp3.1\Stecpoint Sending Service.Application.Queue.pdb
+C:\Projects\Stecpoint\Stecpoint Sending Service\Stecpoint Sending Service.Application.Queue\obj\Debug\netcoreapp3.1\Stecpoint Sending Service.Application.Queue.csproj.AssemblyReference.cache
+C:\Projects\Stecpoint\Stecpoint Sending Service\Stecpoint Sending Service.Application.Queue\obj\Debug\netcoreapp3.1\Stecpoint Sending Service.Application.Queue.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Stecpoint\Stecpoint Sending Service\Stecpoint Sending Service.Application.Queue\obj\Debug\netcoreapp3.1\Stecpoint Sending Service.Application.Queue.AssemblyInfoInputs.cache
+C:\Projects\Stecpoint\Stecpoint Sending Service\Stecpoint Sending Service.Application.Queue\obj\Debug\netcoreapp3.1\Stecpoint Sending Service.Application.Queue.AssemblyInfo.cs
+C:\Projects\Stecpoint\Stecpoint Sending Service\Stecpoint Sending Service.Application.Queue\obj\Debug\netcoreapp3.1\Stecpoint Sending Service.Application.Queue.csproj.CoreCompileInputs.cache
+C:\Projects\Stecpoint\Stecpoint Sending Service\Stecpoint Sending Service.Application.Queue\obj\Debug\netcoreapp3.1\Stecpoint Sending Service.Application.Queue.dll
+C:\Projects\Stecpoint\Stecpoint Sending Service\Stecpoint Sending Service.Application.Queue\obj\Debug\netcoreapp3.1\Stecpoint Sending Service.Application.Queue.pdb

@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Stecpoint_Receiving_Service.Domain</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Stecpoint Receiving Service.Common\Stecpoint Receiving Service.Common.csproj" />
+  </ItemGroup>
+
+</Project>

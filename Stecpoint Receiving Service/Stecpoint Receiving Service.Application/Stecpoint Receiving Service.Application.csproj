@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Stecpoint_Receiving_Service.Application</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="FluentValidation" Version="10.3.4" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Stecpoint Receiving Service.Common\Stecpoint Receiving Service.Common.csproj" />
+    <ProjectReference Include="..\Stecpoint Receiving Service.Domain\Stecpoint Receiving Service.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

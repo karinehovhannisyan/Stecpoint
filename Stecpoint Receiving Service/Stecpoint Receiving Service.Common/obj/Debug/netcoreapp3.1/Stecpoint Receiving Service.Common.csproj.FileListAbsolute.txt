@@ -1,0 +1,10 @@
+C:\Projects\Stecpoint\Stecpoint Receiving Service\Stecpoint Receiving Service.Common\bin\Debug\netcoreapp3.1\Stecpoint Receiving Service.Common.deps.json
+C:\Projects\Stecpoint\Stecpoint Receiving Service\Stecpoint Receiving Service.Common\bin\Debug\netcoreapp3.1\Stecpoint Receiving Service.Common.dll
+C:\Projects\Stecpoint\Stecpoint Receiving Service\Stecpoint Receiving Service.Common\bin\Debug\netcoreapp3.1\Stecpoint Receiving Service.Common.pdb
+C:\Projects\Stecpoint\Stecpoint Receiving Service\Stecpoint Receiving Service.Common\obj\Debug\netcoreapp3.1\Stecpoint Receiving Service.Common.csproj.AssemblyReference.cache
+C:\Projects\Stecpoint\Stecpoint Receiving Service\Stecpoint Receiving Service.Common\obj\Debug\netcoreapp3.1\Stecpoint Receiving Service.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Stecpoint\Stecpoint Receiving Service\Stecpoint Receiving Service.Common\obj\Debug\netcoreapp3.1\Stecpoint Receiving Service.Common.AssemblyInfoInputs.cache
+C:\Projects\Stecpoint\Stecpoint Receiving Service\Stecpoint Receiving Service.Common\obj\Debug\netcoreapp3.1\Stecpoint Receiving Service.Common.AssemblyInfo.cs
+C:\Projects\Stecpoint\Stecpoint Receiving Service\Stecpoint Receiving Service.Common\obj\Debug\netcoreapp3.1\Stecpoint Receiving Service.Common.csproj.CoreCompileInputs.cache
+C:\Projects\Stecpoint\Stecpoint Receiving Service\Stecpoint Receiving Service.Common\obj\Debug\netcoreapp3.1\Stecpoint Receiving Service.Common.dll
+C:\Projects\Stecpoint\Stecpoint Receiving Service\Stecpoint Receiving Service.Common\obj\Debug\netcoreapp3.1\Stecpoint Receiving Service.Common.pdb

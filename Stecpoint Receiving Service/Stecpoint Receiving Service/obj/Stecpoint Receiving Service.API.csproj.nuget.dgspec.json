@@ -1,0 +1,504 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Projects\\Stecpoint\\Stecpoint Receiving Service\\Stecpoint Receiving Service\\Stecpoint Receiving Service.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Projects\\Stecpoint\\Stecpoint Receiving Service\\MassTransit.Messages\\MassTransit.Messages.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\Stecpoint\\Stecpoint Receiving Service\\MassTransit.Messages\\MassTransit.Messages.csproj",
+        "projectName": "MassTransit.Messages",
+        "projectPath": "C:\\Projects\\Stecpoint\\Stecpoint Receiving Service\\MassTransit.Messages\\MassTransit.Messages.csproj",
+        "packagesPath": "C:\\Users\\37491\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\Stecpoint\\Stecpoint Receiving Service\\MassTransit.Messages\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\37491\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://cargoodev.pkgs.visualstudio.com/Cargoo_V2/_packaging/Cargoo_Utils/nuget/v3/index.json": {},
+          "https://cargoodev.pkgs.visualstudio.com/Cargoo_V2/_packaging/Cargoo_WorkflowRules/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Projects\\Stecpoint\\Stecpoint Receiving Service\\Stecpoint Receiving Service.Application\\Stecpoint Receiving Service.Application.csproj": {
+                "projectPath": "C:\\Projects\\Stecpoint\\Stecpoint Receiving Service\\Stecpoint Receiving Service.Application\\Stecpoint Receiving Service.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MassTransit": {
+              "target": "Package",
+              "version": "[7.2.3, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.10.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\Stecpoint\\Stecpoint Receiving Service\\Stecpoint Receiving Service.Application\\Stecpoint Receiving Service.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\Stecpoint\\Stecpoint Receiving Service\\Stecpoint Receiving Service.Application\\Stecpoint Receiving Service.Application.csproj",
+        "projectName": "Stecpoint Receiving Service.Application",
+        "projectPath": "C:\\Projects\\Stecpoint\\Stecpoint Receiving Service\\Stecpoint Receiving Service.Application\\Stecpoint Receiving Service.Application.csproj",
+        "packagesPath": "C:\\Users\\37491\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\Stecpoint\\Stecpoint Receiving Service\\Stecpoint Receiving Service.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\37491\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://cargoodev.pkgs.visualstudio.com/Cargoo_V2/_packaging/Cargoo_Utils/nuget/v3/index.json": {},
+          "https://cargoodev.pkgs.visualstudio.com/Cargoo_V2/_packaging/Cargoo_WorkflowRules/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Projects\\Stecpoint\\Stecpoint Receiving Service\\Stecpoint Receiving Service.Common\\Stecpoint Receiving Service.Common.csproj": {
+                "projectPath": "C:\\Projects\\Stecpoint\\Stecpoint Receiving Service\\Stecpoint Receiving Service.Common\\Stecpoint Receiving Service.Common.csproj"
+              },
+              "C:\\Projects\\Stecpoint\\Stecpoint Receiving Service\\Stecpoint Receiving Service.Domain\\Stecpoint Receiving Service.Domain.csproj": {
+                "projectPath": "C:\\Projects\\Stecpoint\\Stecpoint Receiving Service\\Stecpoint Receiving Service.Domain\\Stecpoint Receiving Service.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[10.3.4, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\Stecpoint\\Stecpoint Receiving Service\\Stecpoint Receiving Service.Common\\Stecpoint Receiving Service.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\Stecpoint\\Stecpoint Receiving Service\\Stecpoint Receiving Service.Common\\Stecpoint Receiving Service.Common.csproj",
+        "projectName": "Stecpoint Receiving Service.Common",
+        "projectPath": "C:\\Projects\\Stecpoint\\Stecpoint Receiving Service\\Stecpoint Receiving Service.Common\\Stecpoint Receiving Service.Common.csproj",
+        "packagesPath": "C:\\Users\\37491\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\Stecpoint\\Stecpoint Receiving Service\\Stecpoint Receiving Service.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\37491\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://cargoodev.pkgs.visualstudio.com/Cargoo_V2/_packaging/Cargoo_Utils/nuget/v3/index.json": {},
+          "https://cargoodev.pkgs.visualstudio.com/Cargoo_V2/_packaging/Cargoo_WorkflowRules/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\Stecpoint\\Stecpoint Receiving Service\\Stecpoint Receiving Service.Domain\\Stecpoint Receiving Service.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\Stecpoint\\Stecpoint Receiving Service\\Stecpoint Receiving Service.Domain\\Stecpoint Receiving Service.Domain.csproj",
+        "projectName": "Stecpoint Receiving Service.Domain",
+        "projectPath": "C:\\Projects\\Stecpoint\\Stecpoint Receiving Service\\Stecpoint Receiving Service.Domain\\Stecpoint Receiving Service.Domain.csproj",
+        "packagesPath": "C:\\Users\\37491\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\Stecpoint\\Stecpoint Receiving Service\\Stecpoint Receiving Service.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\37491\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://cargoodev.pkgs.visualstudio.com/Cargoo_V2/_packaging/Cargoo_Utils/nuget/v3/index.json": {},
+          "https://cargoodev.pkgs.visualstudio.com/Cargoo_V2/_packaging/Cargoo_WorkflowRules/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Projects\\Stecpoint\\Stecpoint Receiving Service\\Stecpoint Receiving Service.Common\\Stecpoint Receiving Service.Common.csproj": {
+                "projectPath": "C:\\Projects\\Stecpoint\\Stecpoint Receiving Service\\Stecpoint Receiving Service.Common\\Stecpoint Receiving Service.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\Stecpoint\\Stecpoint Receiving Service\\Stecpoint Receiving Service.Infrastructure\\Stecpoint Receiving Service.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\Stecpoint\\Stecpoint Receiving Service\\Stecpoint Receiving Service.Infrastructure\\Stecpoint Receiving Service.Infrastructure.csproj",
+        "projectName": "Stecpoint Receiving Service.Infrastructure",
+        "projectPath": "C:\\Projects\\Stecpoint\\Stecpoint Receiving Service\\Stecpoint Receiving Service.Infrastructure\\Stecpoint Receiving Service.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\37491\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\Stecpoint\\Stecpoint Receiving Service\\Stecpoint Receiving Service.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\37491\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://cargoodev.pkgs.visualstudio.com/Cargoo_V2/_packaging/Cargoo_Utils/nuget/v3/index.json": {},
+          "https://cargoodev.pkgs.visualstudio.com/Cargoo_V2/_packaging/Cargoo_WorkflowRules/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Projects\\Stecpoint\\Stecpoint Receiving Service\\Stecpoint Receiving Service.Domain\\Stecpoint Receiving Service.Domain.csproj": {
+                "projectPath": "C:\\Projects\\Stecpoint\\Stecpoint Receiving Service\\Stecpoint Receiving Service.Domain\\Stecpoint Receiving Service.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\Stecpoint\\Stecpoint Receiving Service\\Stecpoint Receiving Service\\Stecpoint Receiving Service.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\Stecpoint\\Stecpoint Receiving Service\\Stecpoint Receiving Service\\Stecpoint Receiving Service.API.csproj",
+        "projectName": "Stecpoint Receiving Service.API",
+        "projectPath": "C:\\Projects\\Stecpoint\\Stecpoint Receiving Service\\Stecpoint Receiving Service\\Stecpoint Receiving Service.API.csproj",
+        "packagesPath": "C:\\Users\\37491\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\Stecpoint\\Stecpoint Receiving Service\\Stecpoint Receiving Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\37491\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://cargoodev.pkgs.visualstudio.com/Cargoo_V2/_packaging/Cargoo_Utils/nuget/v3/index.json": {},
+          "https://cargoodev.pkgs.visualstudio.com/Cargoo_V2/_packaging/Cargoo_WorkflowRules/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Projects\\Stecpoint\\Stecpoint Receiving Service\\MassTransit.Messages\\MassTransit.Messages.csproj": {
+                "projectPath": "C:\\Projects\\Stecpoint\\Stecpoint Receiving Service\\MassTransit.Messages\\MassTransit.Messages.csproj"
+              },
+              "C:\\Projects\\Stecpoint\\Stecpoint Receiving Service\\Stecpoint Receiving Service.Application\\Stecpoint Receiving Service.Application.csproj": {
+                "projectPath": "C:\\Projects\\Stecpoint\\Stecpoint Receiving Service\\Stecpoint Receiving Service.Application\\Stecpoint Receiving Service.Application.csproj"
+              },
+              "C:\\Projects\\Stecpoint\\Stecpoint Receiving Service\\Stecpoint Receiving Service.Infrastructure\\Stecpoint Receiving Service.Infrastructure.csproj": {
+                "projectPath": "C:\\Projects\\Stecpoint\\Stecpoint Receiving Service\\Stecpoint Receiving Service.Infrastructure\\Stecpoint Receiving Service.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[10.3.4, )"
+            },
+            "MassTransit.AspNetCore": {
+              "target": "Package",
+              "version": "[7.2.3, )"
+            },
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[7.2.3, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.Extensions.ApiDescription.Server": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.OpenApi": {
+              "target": "Package",
+              "version": "[1.2.3, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.10.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

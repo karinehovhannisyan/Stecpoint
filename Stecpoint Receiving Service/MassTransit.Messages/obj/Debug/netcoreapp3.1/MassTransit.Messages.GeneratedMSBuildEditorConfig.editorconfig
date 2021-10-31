@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = MassTransit.Messages
+build_property.ProjectDir = C:\Projects\Stecpoint\Stecpoint Receiving Service\MassTransit.Messages\

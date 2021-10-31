@@ -1,0 +1,133 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Projects\\Stecpoint\\Stecpoint Sending Service\\Stecpoint Sending Service\\Stecpoint Sending Service.csproj": {}
+  },
+  "projects": {
+    "C:\\Projects\\Stecpoint\\Stecpoint Sending Service\\Application\\Stecpoint Sending Service.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\Stecpoint\\Stecpoint Sending Service\\Application\\Stecpoint Sending Service.Application.csproj",
+        "projectName": "Stecpoint Sending Service.Application",
+        "projectPath": "C:\\Projects\\Stecpoint\\Stecpoint Sending Service\\Application\\Stecpoint Sending Service.Application.csproj",
+        "packagesPath": "C:\\Users\\37491\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\Stecpoint\\Stecpoint Sending Service\\Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\37491\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://cargoodev.pkgs.visualstudio.com/Cargoo_V2/_packaging/Cargoo_Utils/nuget/v3/index.json": {},
+          "https://cargoodev.pkgs.visualstudio.com/Cargoo_V2/_packaging/Cargoo_WorkflowRules/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\Stecpoint\\Stecpoint Sending Service\\Stecpoint Sending Service\\Stecpoint Sending Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\Stecpoint\\Stecpoint Sending Service\\Stecpoint Sending Service\\Stecpoint Sending Service.csproj",
+        "projectName": "Stecpoint Sending Service",
+        "projectPath": "C:\\Projects\\Stecpoint\\Stecpoint Sending Service\\Stecpoint Sending Service\\Stecpoint Sending Service.csproj",
+        "packagesPath": "C:\\Users\\37491\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\Stecpoint\\Stecpoint Sending Service\\Stecpoint Sending Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\37491\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://cargoodev.pkgs.visualstudio.com/Cargoo_V2/_packaging/Cargoo_Utils/nuget/v3/index.json": {},
+          "https://cargoodev.pkgs.visualstudio.com/Cargoo_V2/_packaging/Cargoo_WorkflowRules/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Projects\\Stecpoint\\Stecpoint Sending Service\\Application\\Stecpoint Sending Service.Application.csproj": {
+                "projectPath": "C:\\Projects\\Stecpoint\\Stecpoint Sending Service\\Application\\Stecpoint Sending Service.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Versioning": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+C:\Projects\Stecpoint\Stecpoint Receiving Service\MassTransit.Messages\bin\Debug\netcoreapp3.1\MassTransit.Messages.deps.json
+C:\Projects\Stecpoint\Stecpoint Receiving Service\MassTransit.Messages\bin\Debug\netcoreapp3.1\MassTransit.Messages.dll
+C:\Projects\Stecpoint\Stecpoint Receiving Service\MassTransit.Messages\bin\Debug\netcoreapp3.1\MassTransit.Messages.pdb
+C:\Projects\Stecpoint\Stecpoint Receiving Service\MassTransit.Messages\bin\Debug\netcoreapp3.1\Stecpoint Receiving Service.Application.dll
+C:\Projects\Stecpoint\Stecpoint Receiving Service\MassTransit.Messages\bin\Debug\netcoreapp3.1\Stecpoint Receiving Service.Common.dll
+C:\Projects\Stecpoint\Stecpoint Receiving Service\MassTransit.Messages\bin\Debug\netcoreapp3.1\Stecpoint Receiving Service.Domain.dll
+C:\Projects\Stecpoint\Stecpoint Receiving Service\MassTransit.Messages\bin\Debug\netcoreapp3.1\Stecpoint Receiving Service.Application.pdb
+C:\Projects\Stecpoint\Stecpoint Receiving Service\MassTransit.Messages\bin\Debug\netcoreapp3.1\Stecpoint Receiving Service.Common.pdb
+C:\Projects\Stecpoint\Stecpoint Receiving Service\MassTransit.Messages\bin\Debug\netcoreapp3.1\Stecpoint Receiving Service.Domain.pdb
+C:\Projects\Stecpoint\Stecpoint Receiving Service\MassTransit.Messages\obj\Debug\netcoreapp3.1\MassTransit.Messages.csproj.AssemblyReference.cache
+C:\Projects\Stecpoint\Stecpoint Receiving Service\MassTransit.Messages\obj\Debug\netcoreapp3.1\MassTransit.Messages.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Stecpoint\Stecpoint Receiving Service\MassTransit.Messages\obj\Debug\netcoreapp3.1\MassTransit.Messages.AssemblyInfoInputs.cache
+C:\Projects\Stecpoint\Stecpoint Receiving Service\MassTransit.Messages\obj\Debug\netcoreapp3.1\MassTransit.Messages.AssemblyInfo.cs
+C:\Projects\Stecpoint\Stecpoint Receiving Service\MassTransit.Messages\obj\Debug\netcoreapp3.1\MassTransit.Messages.csproj.CoreCompileInputs.cache
+C:\Projects\Stecpoint\Stecpoint Receiving Service\MassTransit.Messages\obj\Debug\netcoreapp3.1\MassTransit.Messages.csproj.CopyComplete
+C:\Projects\Stecpoint\Stecpoint Receiving Service\MassTransit.Messages\obj\Debug\netcoreapp3.1\MassTransit.Messages.dll
+C:\Projects\Stecpoint\Stecpoint Receiving Service\MassTransit.Messages\obj\Debug\netcoreapp3.1\MassTransit.Messages.pdb
