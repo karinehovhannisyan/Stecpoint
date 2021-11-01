@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Serilog;
+using Stecpoint_Receiving_Service.Application.Exceptions;
 using System.Net;
 
 namespace Stecpoint_Receiving_Service.API.Filters
@@ -22,6 +23,10 @@ namespace Stecpoint_Receiving_Service.API.Filters
         {
             Log.Error(context.Exception, context.Exception.Message);
 
+            var statusCode = StatusCodes.Status500InternalServerError;
+            if (context.Exception is ICustomException customException)
+                statusCode = customException.GetErrorCode();
+
             var jsonResponse = new JsonErrorResponse
             {
                 Messages = new[] { "An error occured." }
@@ -30,7 +35,7 @@ namespace Stecpoint_Receiving_Service.API.Filters
             if (_env.IsDevelopment())
                 jsonResponse.DeveloperMessage = context.Exception;
 
-            var objectResult = new ObjectResult(jsonResponse) { StatusCode = StatusCodes.Status500InternalServerError };
+            var objectResult = new ObjectResult(jsonResponse) { StatusCode = statusCode };
 
             context.Result = objectResult;
             context.HttpContext.Response.StatusCode = (int)HttpStatusCode.InternalServerError;

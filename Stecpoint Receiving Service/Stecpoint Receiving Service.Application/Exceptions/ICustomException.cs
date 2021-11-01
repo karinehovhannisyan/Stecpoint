@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Stecpoint_Receiving_Service.Application.Exceptions
 {
-    interface ICustomException
+    public interface ICustomException
     {
         int GetErrorCode();
     }
